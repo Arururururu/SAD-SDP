@@ -58,3 +58,4 @@ Postmortem & Process Improvement Plan| 事后总结, 并提出过程改进计划
 ### 个人的技术类、项目管理类博客清单
 
   - [微信小程序自定义组件](https://blog.csdn.net/unirrrrr/article/details/80724047)
+  - [微信小程序输入多行文本](https://blog.csdn.net/unirrrrr/article/details/80723408)
