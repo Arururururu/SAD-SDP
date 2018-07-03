@@ -43,6 +43,7 @@
   wxml        | 页面结构 |
   
   MINA框架图如下：
+  
   ![小程序框架图](http://wx3.sinaimg.cn/mw690/85eb32d8gy1fsx1xhq7dhj20n30irmxr.jpg)
 
 
@@ -54,26 +55,57 @@
 ├── app.json //小程序的全局配置
 ├── app.wxss //小程序的全局样式
 ├── images //小程序利用到的图片
+|
 ├── pages //小程序的页面文件存放文件夹
 |   ├── authorize // 授权登录页面
 │   │   ├── authorize.js //授权登录页面的逻辑文件
 |   |   ├── authorize.json //授权登录页面配置文件
 │   │   ├── authorize.wxml // 授权登录页面的结构文件
 │   │   └── authorize.wxss  // 授权登录页面的样式文件
+|   |
 │   ├── index //主菜单页面
 │   │   ├── index.js //主菜单页面的逻辑文件
 |   |   ├── index.json //主菜单页面配置文件
 │   │   ├── index.wxml // 主菜单页面的结构文件
 │   │   └── index.wxss  // 主菜单页面的样式文件
-│   └── recommendation //今日推荐页面
-│   ├── recommendation.js //今日推荐页面的逻辑文件
-│   ├── recommendation.json //今日推荐页面配置文件
-│   ├── recommendation.wxml //今日推荐页面的结构文件 html
-│   └── recommendation.wxss //今日推荐页面的样式文件 css
+|   |
+│   ├── recommendation //今日推荐页面
+│   |   ├── recommendation.js //今日推荐页面的逻辑文件
+│   |   ├── recommendation.json //今日推荐页面配置文件
+│   |   ├── recommendation.wxml //今日推荐页面的结构文件
+│   |   └── recommendation.wxss //今日推荐页面的样式文件
+|   |
+│   ├── recommendation-details //今日推荐卡片细节页面
+│   |   ├── recommendation-details.js //今日推荐卡片细节页面的逻辑文件
+│   |   ├── recommendation-details.json //今日推荐卡片细节页面配置文件
+│   |   ├── recommendation-details.wxml //今日推荐卡片细节页面的结构文件
+│   |   └── recommendation-details.wxss //今日推荐卡片细节页面的样式文件
+|   |
+│   ├── cart //购物车页面
+│   |   ├── cart.js //购物车页面的逻辑文件
+│   |   ├── cart.json //购物车页面配置文件
+│   |   ├── cart.wxml //购物车页面的结构文件
+│   └── └── cart.wxss //购物车页面的样式文件
+|
 ├── component //自定义组件
-|    ├── card
-|    ├── hSwiper
-|    └── orderItem
+│    ├── card //今日推荐卡片组件
+│    |   ├── card.js //今日推荐卡片组件的逻辑文件
+│    |   ├── card.json //今日推荐卡片组件的配置文件
+│    |   ├── card.wxml //今日推荐卡片组件的结构文件
+│    |   └── card.wxss //今日推荐卡片组件的样式文件
+|    |
+|    ├── hSwiper //滑动框组件
+│    |   ├── hSwiper.js //滑动框组件的逻辑文件
+│    |   ├── hSwiper.json //滑动框组件的配置文件
+│    |   ├── hSwiper.wxml //滑动框组件的结构文件
+│    |   └── hSwiper.wxss //今日推荐卡片组件的样式文件
+|    |
+|    └── orderItem //购物车or订单item组件
+│    |   ├── orderItem.js //订单item的逻辑文件
+│    |   ├── orderItem.json //订单item的配置文件
+│    |   ├── orderItem.wxml //订单item组件的结构文件
+│    └── └── orderItem.wxss //订单item组件的样式文件
+|
 └── utils //公共的js代码
      └── util.js
 
