@@ -140,9 +140,11 @@
 
 - MVVM设计模式
 
-MVVM的全称为Model-View-ViewModel，M表示Model，V表示视图View，VM表示数据与模型，当前端View变化时，View与VM进行了绑定，VM又与M进行交互，从而使M得到了改变；当M发生变化时，小程序检测到变化并通知VM，由于VM和V进行了绑定，因此V得到改变。
+  MVVM的全称为Model-View-ViewModel，M表示Model，V表示视图View，VM表示数据与模型，当前端View变化时，由于View与VM进行了绑定，VM又与M进行交互，从而使M得到了改变；当M发生变化时，小程序检测到变化并通知VM，由于VM和V进行了绑定，因此V得到改变。
 
-小程序的框架MINA内的设计思想就包含了MVVM，因此小程序内页面和组件模块都自动采用了MVVM设计模式。
+  小程序的框架MINA内的设计思想就包含了MVVM，因此小程序内页面和组件模块都自动采用了MVVM设计模式。
+  
+
 
 
 
